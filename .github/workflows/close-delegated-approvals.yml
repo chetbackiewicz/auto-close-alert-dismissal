@@ -95,7 +95,7 @@ jobs:
                   continue
                 }
 
-                echo "  ✅ Dismissal request approved"
+                echo " Dismissal request approved"
                 dismissed=$((dismissed + 1))
               else
                 echo "  Severity is ${severity} — skipping (not medium or low)"
